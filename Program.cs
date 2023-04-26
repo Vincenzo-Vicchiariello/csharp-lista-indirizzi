@@ -35,6 +35,6 @@ while (!file.EndOfStream)
 
 foreach (Address personAddress in personAddressList)
 {
-    Console.WriteLine(personAddress);
+    Console.WriteLine(personAddress.ToString);
 }
 
