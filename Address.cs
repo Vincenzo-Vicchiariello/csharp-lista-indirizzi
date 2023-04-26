@@ -25,7 +25,7 @@ namespace csharp_lista_indirizzi
         }
     public override string ToString()
     {
-            return ($"Nome:{this.Name}");
+            return ($" ---------INDIRIZZO-------- \n Nome:{this.Name}\n Cognome:{this.Surname} \n Via: {Street} \n Città: {City} \n Provincia: {Province} \n Codice Postale: {ZIP} \n --------------------------------------");
      
     }
 
